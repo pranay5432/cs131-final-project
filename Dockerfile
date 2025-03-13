@@ -28,7 +28,6 @@ WORKDIR /app
 COPY app.py /app/
 COPY demo.py /app/
 COPY sample_image.jpg /app/
-COPY sample_image1.png /app/
 COPY test_ocr.png /app/
 COPY en_US-lessac-medium.onnx* /app/
 COPY increase_processor_load.py /app/
