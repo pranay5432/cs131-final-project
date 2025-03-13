@@ -27,7 +27,6 @@ WORKDIR /app
 # 5) Copy your Python script(s) and images
 COPY app.py /app/
 COPY demo.py /app/
-COPY sample_image.jpg /app/
 COPY test_ocr.png /app/
 COPY en_US-lessac-medium.onnx* /app/
 COPY increase_processor_load.py /app/
